@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Bookings | Philip Watling</title>
+  <meta name="description" content="Get in touch with author Philip Watling for interviews, speaking engagements, and reader inquiries.">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="site-brand">
+        <span class="brand-title">Philip Watling</span>
+        <span class="brand-subtitle">Author &amp; Speaker</span>
+      </a>
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="book.html" class="nav-link">The Book</a></li>
+          <li><a href="about.html" class="nav-link">About Philip</a></li>
+          <li><a href="media.html" class="nav-link">Media &amp; Press</a></li>
+          <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="book.html#retailers" class="btn btn-primary">Get the Book</a>
+        </div>
+        <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section section-bg-slate" style="padding: 4rem 0;">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 0;">
+        <span class="section-tag">Direct Inquiry</span>
+        <h1 class="section-title" style="font-size: 3rem;">Contact &amp; Inquiries</h1>
+        <p class="section-desc">Reach out directly to Philip Watling for event bookings, media requests, or reader discussions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-info-card">
+        <h3>Connect with Philip</h3>
+        <p style="color: var(--text-muted); margin-bottom: 2rem;">
+          Whether you are an event organizer, podcast host, trauma survivor, or reader, Philip welcomes your message.
+        </p>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <strong style="color: var(--primary-navy);">Location</strong>
+            <p style="margin-bottom: 0; color: var(--text-muted);">Milton Keynes, United Kingdom</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">🎙</div>
+          <div>
+            <strong style="color: var(--primary-navy);">Media &amp; Speaking</strong>
+            <p style="margin-bottom: 0; color: var(--text-muted);">Available for virtual podcasts, charity talks, and panel discussions</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📖</div>
+          <div>
+            <strong style="color: var(--primary-navy);">Book Clubs</strong>
+            <p style="margin-bottom: 0; color: var(--text-muted);">Guest Q&amp;A sessions available upon request</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <label class="form-label" for="c-name">Full Name</label>
+          <input type="text" id="c-name" class="form-control" placeholder="Your name" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="c-email">Email Address</label>
+          <input type="email" id="c-email" class="form-control" placeholder="your.email@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="c-type">Inquiry Topic</label>
+          <select id="c-type" class="form-control">
+            <option>Reader Note &amp; Feedback</option>
+            <option>Podcast / Media Interview</option>
+            <option>Charity / Speaking Engagement</option>
+            <option>Book Club Visit</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="c-msg">Your Message</label>
+          <textarea id="c-msg" class="form-control" placeholder="How can Philip help you?" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Philip Watling. All Rights Reserved.</p>
+      <a href="index.html" style="color: var(--accent-gold);">&larr; Back to Home</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
