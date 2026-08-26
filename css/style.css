@@ -114,7 +114,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 76px;
+  padding: 10px;
 }
 
 .site-brand {
@@ -1129,6 +1129,9 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
+  .brand-title {
+    font-size: 1.25rem;
+  }
   .nav-links {
     position: fixed;
     top: 76px;
@@ -1145,6 +1148,7 @@ textarea.form-control {
   
   .nav-links.active {
     display: flex;
+    margin-top: 2rem;
   }
   
   .mobile-toggle {
